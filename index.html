@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>Welcome to My Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -20,135 +21,182 @@
         $( "#datepicker" ).datepicker();
       } );
   </script> -->
-  </head>
-  <body>
+</head>
+
+<body>
     <!-- Navbar -->
     <nav class="navbar navbar-default">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#about"><i class="fas fa-user"></i> About Me</a>
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#about"><i class="fas fa-user"></i> About Me</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#skill"><i class="fas fa-briefcase"></i> EXPERIENCE</a></li>
+                    <li><a href="#"><i class="fas fa-laptop"></i> MY WORKS</a></li>
+                    <li><a href="#contact"><i class="fas fa-camera"></i> CONTACT ME</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="collapse navbar-collapse" id="myNavbar">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#skill"><i class="fas fa-briefcase"></i> EXPERIENCE</a></li>
-            <li><a href="#"><i class="fas fa-laptop"></i> MY WORKS</a></li>
-            <li><a href="#contact"><i class="fas fa-camera"></i> CONTACT ME</a></li>
-          </ul>
-        </div>
-      </div>
     </nav>
 
     <!--date picker-->
-   <!--  Date: <div id="datepicker" style="font-size: 20px; margin: 100px 100px; padding: 100px 100px;"></div> -->
+    <!--  Date: <div id="datepicker" style="font-size: 20px; margin: 100px 100px; padding: 100px 100px;"></div> -->
 
     <!-- First Container -->
-  <div class="container-fluid bg-1 text-center">
-    <h3 class="margin">Chloe Ho</h3>
-    <img src="images/chloe.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
-  </div>
+    <div class="container-fluid bg-1 text-center">
+        <h3 class="margin">Chloe Ho</h3>
+        <img src="images/chloe.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
+    </div>
 
-  <!-- Second Container -->
-  <div class="container-fluid bg-2 text-center" id="about">
-    <h3 class="margin">Who Am I?</h3>
-    <p style="font-size: 20px; color:rgb(26.6%, 30.4%, 29.8%);">I'm a senior in computer science major at CSUF at will get the BS degree in August 2019
-    </br>Seeking opportunities to improve software development skills and explore technologies</p>
-    <!--<a href="#" class="btn btn-default btn-lg">
+    <!-- Second Container -->
+    <div class="container-fluid bg-2 text-center" id="about">
+        <h3 class="margin">Who Am I?</h3>
+        <p style="font-size: 20px; color:rgb(26.6%, 30.4%, 29.8%);">I'm a senior in computer science major at CSUF at will get the BS degree in August 2019
+            </br>Seeking opportunities to improve software development skills and explore technologies</p>
+        <!--<a href="#" class="btn btn-default btn-lg">
       <span class="glyphicon glyphicon-search"></span> Search Me
     </a> -->
-     </div>
+    </div>
 
+   
+   <!-- skills -->
     <div class="section" id="skill">
         <div class="container">
-          <div class="h4 text-center mb-4 title">Skills</div>
-          <div class="card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-            <div class="card-body">
-              <div class="row">
-                <div class="col-md-4">
-                  <div class="progress-container progress-primary"><span class="progress-badge">HTML</span>
-                    <div class="progress">
-                      <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%; background-color:rgb(88.6%, 74%, 74%);"></div><span class="progress-value">90%</span>
-                    </div>
-                  </div>
-                </div>
+            <div class="h4 text-center mb-4 title">Skills</div>
+            <div class="card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="progress-container progress-primary"><span class="progress-badge">HTML</span>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%; background-color:rgb(88.6%, 74%, 74%);"></div><span class="progress-value">90%</span>
+                                </div>
+                            </div>
+                        </div>
 
-                <div class="col-md-4">
-                  <div class="progress-container progress-primary"><span class="progress-badge">JAVASCRIPT</span>
-                    <div class="progress">
-                      <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%; background-color:rgb(88.6%, 74%, 74%);"></div><span class="progress-value">85%</span>
-                    </div>
-                  </div>
-                </div>
-
-
-                <div class="col-md-4">
-                  <div class="progress-container progress-primary"><span class="progress-badge">SQL</span>
-                    <div class="progress">
-                      <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%; background-color:rgb(88.6%, 74%, 74%);"></div><span class="progress-value">80%</span>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-md-4">
-                  <div class="progress-container progress-primary"><span class="progress-badge">CSS</span>
-                    <div class="progress">
-                      <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%; background-color:rgb(88.6%, 74%, 74%);"></div><span class="progress-value">90%</span>
-                    </div>
-                  </div>
-                </div>
+                        <div class="col-md-4">
+                            <div class="progress-container progress-primary"><span class="progress-badge">JAVASCRIPT</span>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%; background-color:rgb(88.6%, 74%, 74%);"></div><span class="progress-value">85%</span>
+                                </div>
+                            </div>
+                        </div>
 
 
-                <div class="col-md-4">
-                  <div class="progress-container progress-primary"><span class="progress-badge">C++</span>
-                    <div class="progress">
-                      <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%; background-color:rgb(88.6%, 74%, 74%);"></div><span class="progress-value">80%</span>
+                        <div class="col-md-4">
+                            <div class="progress-container progress-primary"><span class="progress-badge">SQL</span>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%; background-color:rgb(88.6%, 74%, 74%);"></div><span class="progress-value">80%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="progress-container progress-primary"><span class="progress-badge">CSS</span>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%; background-color:rgb(88.6%, 74%, 74%);"></div><span class="progress-value">90%</span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-4">
+                            <div class="progress-container progress-primary"><span class="progress-badge">PHP</span>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%; background-color:rgb(88.6%, 74%, 74%);"></div><span class="progress-value">85%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="progress-container progress-primary"><span class="progress-badge">LINUX</span>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%; background-color:rgb(88.6%, 74%, 74%);"></div><span class="progress-value">90%</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
-                <div class="col-md-4">
-                  <div class="progress-container progress-primary"><span class="progress-badge">LINUX</span>
-                    <div class="progress">
-                      <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%; background-color:rgb(88.6%, 74%, 74%);"></div><span class="progress-value">90%</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
-          </div>
         </div>
-      </div>
-
-
-
-  <!-- Third Container (Grid) -->
-  <div class="container-fluid bg-3 text-center" id ="contact">
-    <h3 class="margin">Where To Find Me?</h3><br>
-    <div class="row">
-      <div class="col-sm-4">
-        <p style="font-size:15px; color:rgb(36.6%, 36.2%, 36.2%);">EMAIL</p>
-        <i class="far fa-envelope"> chloehotn@gmail.com</i>
-        </div>
-      <div class="col-sm-4">
-        <p style="font-size:15px; color:rgb(36.6%, 36.2%, 36.2%);">CONTACT</p>
-        <i class="fas fa-mobile-alt"> (714) 724-8380</i>
-        </div>
-      <div class="col-sm-4">
-        <p style="font-size:15px; color:rgb(36.6%, 36.2%, 36.2%);">SOCIAL MEDIA</p>
-        <a href="https://www.instagram.com/hellochloeeeee/"><i class="fab fa-instagram"></i></a>
-        <a href="https://www.linkedin.com/in/chloe-ho-78385980/"><i class="fab fa-linkedin"></i></a>
-        <a href="https://github.com/hellochloe92"><i class="fab fa-github-square"></i></a>
-      </div>
     </div>
-  </div>
+    
+    <div class="container-fluid bg-3 text-center" id="contact">
+        <h3 class="margin">My Works</h3><br>
+        <div class="row">
+            <div class="col-sm-4">
+                <p style="font-size:15px; color:rgb(36.6%, 36.2%, 36.2%);">FANSEAFOOD DEVELOPER</p>
+                <i class="fas fa-link"><a href="http://fanseafood.com">http://fanseafood.com</a></i>
+                <ul style="font-size:15px; text-align: left; color: #514242;">
+                <li>Designing, coding, and modifying websites from layout to function and according to a client’s specifications</li>
+                <li>Strive to create visually appealing sites that feature user-friendly design and clea navigation</li>
+                <li>Language using: PHP, JS, CSS, MySQL</li>
+                <li>Software tools: Xampp, MySQL, Visual Studio Code</li>
+                <li>Develop and test a self-exciting point of website</li>
+                </ul> 
+            </div>
+            
+            <div class="col-sm-4">
+                <p style="font-size:15px; color:rgb(36.6%, 36.2%, 36.2%);">FOOD ONLINE ORDERING SYSTEM</p>
+                <i class="fas fa-link"><a href="https://github.com/tho96/food-online-system">Link project</a></i>
+                
+                <ul style="font-size:15px; text-align: left; color: #514242;">
+                    <li>This project is from Software Testing class</li>
+                    <li>Language using: PHP, HTML, CSS, MySQL, JavaScript</li>
+                    <li>Software tools: Xampp, MySQL, Brackets, Github</li>
+                    <li>Develop and test a self-exciting point of group’s web-based application.</li>
+                    <li>Perform and report test cases (black-box, white-box testing)</li>
+                </ul>
+            </div>
+            <div class="col-sm-4">
+                <p style="font-size:15px; color:rgb(36.6%, 36.2%, 36.2%);">BLOG PLATFORM</p>
+                <i class="fas fa-link"><a href="https://github.com/tho96/blog-platform/tree/master/ourblog-master%202">Link project</a></i>
+                <ul style="font-size:15px; text-align: left; color: #514242;">
+                    <li>A Back-end project for a blog application</li>
+                    <li>Four microservices that make up a blog web service. The service allows users to create accounts, publish articles, comment on articles, and add tags to articles.</li>
+                    <li>An Nginx reverse proxy to serve as a load balancer to distribute the requests between each microservice and their copies.</li>
+                    <li>An RSS feed that retrieves full articles, comments, or article summaries.</li>
+                    <li>Language using: Python, SQLite3, NoSQL</li>
+                    <li>Software tools: Tavern, Nginx, Yaml, json, Flask, Casssandra, scylla, foreman, Postman</li>
+                </ul>
+                
+            </div>
+        </div>
+    </div>
 
-  <!-- Footer -->
-  <footer class="container-fluid bg-4 text-center">
-    <p>Copyright 2019 &copy by Chloe Ho</a></p>
-  </footer>
 
-  </body>
-</html>
+
+    
+
+    <!-- Third Container (Grid) -->
+    <div class="container-fluid bg-4 text-center" id="contact">
+        <h3 class="margin">Where To Find Me?</h3><br>
+        <div class="row">
+            <div class="col-sm-4">
+                <p style="font-size:15px; color:rgb(36.6%, 36.2%, 36.2%);">EMAIL</p>
+                <i class="far fa-envelope"> chloehotn@gmail.com</i>
+            </div>
+            <div class="col-sm-4">
+                <p style="font-size:15px; color:rgb(36.6%, 36.2%, 36.2%);">CONTACT</p>
+                <i class="fas fa-mobile-alt"> (714) 724-8380</i>
+            </div>
+            <div class="col-sm-4">
+                <p style="font-size:15px; color:rgb(36.6%, 36.2%, 36.2%);">SOCIAL MEDIA</p>
+                <a href="https://www.instagram.com/hellochloeeeee/"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/chloe-ho-78385980/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/hellochloe92"><i class="fab fa-github-square"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="container-fluid bg-4 text-center">
+        <p>Copyright 2019 &copy by Chloe Ho</p>
+    </footer>
+
+</body>
